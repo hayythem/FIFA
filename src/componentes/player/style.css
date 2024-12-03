@@ -1,0 +1,98 @@
+#player-card {
+ 
+  width: 350px;
+  height: 450px;
+  background-image: url("/IMAGE/card.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+}
+#player-card-head {
+  height: 240px;
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+}
+#intro {
+  width: 40%;
+  position: relative;
+}
+#player-img {
+  position: absolute;
+  right: 40px;
+  bottom: 0px;
+  width: 200px;
+}
+h4 {
+  position: absolute;
+  top: 50px;
+  right: 11px;
+  margin: 0%;
+  font-size: 3rem;
+}
+h6 {
+  position: absolute;
+  top: 95px;
+  right: 13px;
+  margin: 0;
+  font-size: 2rem;
+}
+#country {
+  position: absolute;
+  top: 142px;
+  right: 18px;
+}
+#team {
+  position: absolute;
+  top: 182px;
+  right: 20px;
+}
+#plaer-card-body {
+  position: relative;
+  height: 200px;
+}
+h2 {
+  
+  margin: 0;
+  position: absolute;
+  top: -1px;
+  left: 78px;
+  display: block;
+}
+p {
+  font-weight: bold;
+  margin: 0;
+  
+  
+}
+#pac {
+  position: absolute;
+  top: 52px;
+  left: 80px;
+}
+#sho {
+  position: absolute;
+  top: 85px;
+  left: 80px;
+}
+#pas {
+  position: absolute;
+  top: 116px;
+  left: 80px;
+}
+#dri {
+  position: absolute;
+  top: 52px;
+  left: 200px;
+}
+#def {
+  position: absolute;
+  top: 85px;
+  left: 200px;
+}
+#phy {
+  position: absolute;
+  top: 116px;
+  left: 200px;
+}
