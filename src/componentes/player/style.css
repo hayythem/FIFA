@@ -1,3 +1,5 @@
+
+
 #player-card {
  
   width: 350px;
@@ -95,4 +97,10 @@ p {
   position: absolute;
   top: 116px;
   left: 200px;
+}
+#players-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
